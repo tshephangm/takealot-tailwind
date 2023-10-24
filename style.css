@@ -1,0 +1,101 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+:root {
+  --blue: #0b79bf;
+  --darkGray: #4d4d4d;
+  --green: #1c8644;
+  --white: #fff;
+  --borderGray: #ccc;
+  --tabGray: #ededed;
+  --tabBlack: #333333;
+  --lightRed: #f4697a;
+
+  --padding: 120px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--darkGray);
+}
+
+hr {
+  height: 25.5px;
+  margin: 0 15px;
+  border: none;
+  width: 1px;
+  background-color: var(--borderGray);
+}
+
+li {
+  list-style: none;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  padding-top: 12px;
+  padding: 12px 120px;
+}
+
+.left-nav img {
+  width: 180px;
+  margin-right: 25px;
+}
+
+header {
+  height: 142px;
+}
+
+header .nav {
+  display: flex;
+}
+
+header .nav-links {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.fa-heart {
+  color: #fff;
+  background-color: var(--lightRed);
+  padding: 8px;
+  border-radius: 100%;
+}
+
+.fa-cart-shopping {
+  color: var(--white);
+  background-color: var(--green);
+  padding: 8px 8px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.fa-cart-shopping span {
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.bottom {
+  height: 82px;
+  background-color: var(--blue);
+}
